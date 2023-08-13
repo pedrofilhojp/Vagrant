@@ -5,8 +5,7 @@ Use the information available in Official documentation of Vagrant- https://deve
 
 ## Main command line
 '''
-# vagrant init
+vagrant init
 '''
-
 - Vagranfile: This is the main file that we will use in our class
 
