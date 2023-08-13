@@ -1,2 +1,3 @@
 # Vagrant
-Here I share information covering the use and settings of Vagrant Software.
+
+- Vagranfile: This is the main file that we will use in our class
