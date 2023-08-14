@@ -16,21 +16,19 @@ In this repository, i'm shared with my students files and main commands lines us
 
 ## Install Vagrant
 Use the information available in Official documentation of Vagrant
-- https://developer.hashicorp.com/vagrant/docs/installation
+> https://developer.hashicorp.com/vagrant/docs/installation
 
 ## How does works Vagrant
 Vagrant its the Hashcorp solution to provision virtualization infraestructure to VirtualBox, VMware, Hyperv...
 
 - 1º **BOX:** You need to specify the Box that you will use
 
-  This box, after downloaded will be store inside your home directory on path "~/.vagrant.d/boxes"
-- 2º **Provider:** Tell to Vagrant whitch the virtualization solution will be use, VirtualBox, Vmware...
-- 3º **Configure VM:** If you need, can to customize the virtual machine, nwtwork, gui, total memory...
+  This box, after downloaded will be store inside your home directory on path "~/.vagrant.d/boxes".
+  You can see all Box available in: https://app.vagrantup.com/boxes/search
+  
+- 2º **Provider:** Tell to Vagrant which the virtualization solution will be used, VirtualBox, Vmware...
+- 3º **Configure VM:** If you need, can to customize the virtual machine, network, gui, total memory...
 - 4º **Provision:** You can too execute scripts, or call specialize software to configure the system, how Puppet, Ansible, Chef...
-
-
-## Main concepts
-**Boxes**: Its the Virtual Machine Images that you can download or upload to Vagrant Cloud (https://app.vagrantup.com/boxes/search)
 
 
 ## Main commands line that i use
