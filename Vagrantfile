@@ -4,7 +4,7 @@
 #   export VAGRANT_EXPERIMENTAL="disks"
 
 Vagrant.configure("2") do |config|
-    config.vm.box = "roboxes/ubuntu2204"
+    config.vm.box = "debian/jessie64"
     
     config.vm.provider "virtualbox" do |vb|
       vb.gui = false
